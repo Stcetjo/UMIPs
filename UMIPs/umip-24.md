@@ -31,6 +31,7 @@ Please reference the Rationale section in [umip-22](https://github.com/UMAprotoc
 
 ## Implementation
 Implementation is the same as in [umip-22](https://github.com/UMAprotocol/UMIPs/blob/master/UMIPs/umip-22.md) except the time stamps are adjusted for each identifier according to: 
+
 Identifier GASETH-FEB21: Unix timestamp `1614556800` (March 1, 2021 00:00:00 UTC)
 Identifier GASETH-MAR21: Unix timestamp `1617235200` (April 1, 2021 00:00:00 UTC)
 

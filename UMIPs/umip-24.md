@@ -11,13 +11,13 @@ This UMIP will reference a synthetic token to be created with this price identif
 
 The DVM should support requests for a price that resolves to either the median monthly Ethereum gas price or a 2-hour Time-Weighted Average Price (TWAP) on the highest volume Uniswap ETH/uGAS pool. The price resolution method to use will depend on the the timestamp the price request was made at.
 
-Identifier GASETH-FEB21:
+#### Identifier GASETH-FEB21:
 
 For a price request made at or after the Unix timestamp `1614556800` (March 1, 2021 00:00:00 UTC), the price will be resolved with the median monthly gas price calculation defined for GASETH-1M-1M in UMIP-20.
 
 For a price request made before `1614556800`, the price will be resolved to a 2-hour TWAP for the Uniswap price of the listed synthetic token in ETH. The synthetic token address will be listed in the Technical Specification section.
 
-Identifier GASETH-MAR21: 
+#### Identifier GASETH-MAR21: 
 
 For a price request made at or after the Unix timestamp `1617235200` (April 1, 2021 00:00:00 UTC), the price will be resolved with the median monthly gas price calculation defined for GASETH-1M-1M in UMIP-20.
 
